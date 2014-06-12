@@ -1,0 +1,65 @@
+body {
+	background-image:url("slike/brdo.jpg");
+	background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'nk_02_dregular';
+    src: url('fonts/nk_02/nk_02-webfont.eot');
+    src: url('fonts/nk_02/nk_02-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/nk_02/nk_02-webfont.woff') format('woff'),
+         url('fonts/nk_02/nk_02-webfont.ttf') format('truetype'),
+         url('fonts/nk_02/nk_02-webfont.svg#nk_02_dregular') format('svg');
+}
+
+@font-face {
+    font-family: 'arsenalregular';
+    src: url('arsenal-regular-webfont.eot');
+    src: url('arsenal-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arsenal-regular-webfont.woff') format('woff'),
+         url('arsenal-regular-webfont.ttf') format('truetype'),
+         url('arsenal-regular-webfont.svg#arsenalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.tekstosvk {
+	padding-top: 150px;
+}
+
+.tekstrd {
+	padding-top: 50px;
+	max-width: 450px;
+	color: #ffffff;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1 {
+	font-family: 'nk_02_d';
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 55px;
+	line-height:100%;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+	font-family: 'arsenal';
+}
+
+.cta {
+	color: #FFFFFF;
+	background: none repeat scroll 0 0 #333333;
+    margin-top: 130px;
+}
+
+.ulevo {
+    transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(-2.5deg);
+}
+
+.ulevo .container {
+  	transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(2.5deg);
+}
